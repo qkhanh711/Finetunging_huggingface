@@ -13,7 +13,7 @@ import dotenv
 import json
 import wandb
 from huggingface_hub import whoami, login, notebook_login, create_repo, upload_folder
-from train_dreambooth_lora_sdxl import save_model_card
+from diffuserss.train_dreambooth_lora_sd3 import save_model_card
 from IPython.display import display, Markdown
 import subprocess
 from pathlib import Path
@@ -38,7 +38,7 @@ wandb.login(key=KEY)
 
 # Launch training
 subprocess.run([
-    'accelerate', 'launch', 'diffusers/train_dreambooth_lora_sd3.py',
+    'accelerate', 'launch', 'diffuserss/train_dreambooth_lora_sd3.py',
     '--pretrained_model_name_or_path="stabilityai/stable-diffusion-3-medium-diffusers"',
     '--instance_data_dir="00000"',
     '--output_dir="TS_LoRA_sd3"',

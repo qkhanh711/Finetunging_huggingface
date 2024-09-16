@@ -1,4 +1,5 @@
 __pycache__/
+__init__.py
 *.png
 *.jpg
 00000_LoRA_sd3
@@ -16,6 +17,7 @@ train_dreambooth_lora_flux.py
 train_dreambooth_lora_sdxl.py
 train_dreambooth_lora_sd3.py
 
-FineTune_SDXL_DreamBooth_LoRA_.ipynb
-FineTune_SD3_DreamBooth_LoRA_ .ipynb
-FineTune_flux_DreamBooth_LoRA_.ipynb
+# FineTune_SDXL_DreamBooth_LoRA_.ipynb
+# FineTune_SD3_DreamBooth_LoRA_ .ipynb
+# FineTune_flux_DreamBooth_LoRA_.ipynb
+

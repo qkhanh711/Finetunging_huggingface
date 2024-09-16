@@ -50,7 +50,7 @@ subprocess.run([
 ])
 
 from huggingface_hub import whoami, create_repo, upload_folder
-from train_dreambooth_lora_sdxl import save_model_card
+from diffuserss.train_dreambooth_lora_sdxl import save_model_card
 from pathlib import Path
 
 output_dir = "00000_LoRA"

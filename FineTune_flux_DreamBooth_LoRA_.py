@@ -4,7 +4,7 @@ import locale
 import dotenv
 import wandb
 from huggingface_hub import whoami, upload_folder, create_repo
-from train_dreambooth_lora_sdxl import save_model_card
+from diffuserss.train_dreambooth_lora_flux import save_model_card
 from pathlib import Path
 from IPython.display import display, Markdown
 
