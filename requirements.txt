@@ -1,6 +1,0 @@
-bitsandbytes 
-transformers 
-accelerate 
-peft
-datasets
-git+https://github.com/huggingface/diffusers.git 
